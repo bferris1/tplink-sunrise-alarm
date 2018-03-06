@@ -1,7 +1,7 @@
 {
   "name": "tplink-smarthome-alarm",
   "version": "1.0.0",
-  "description": "Schedules sunrise alarms for TP-Link LB103",
+  "description": "Schedules sunrise alarms for TP-Link LB130",
   "main": "index.js",
   "author": "Ben Ferris",
   "license": "MIT",

@@ -1,0 +1,16 @@
+{
+  "name": "tplink-smarthome-alarm",
+  "version": "1.0.0",
+  "description": "Schedules sunrise alarms for TP-Link LB103",
+  "main": "index.js",
+  "author": "Ben Ferris",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "dependencies": {
+    "node-schedule": "^1.3.0",
+    "tplink-smarthome-api": "^0.22.0"
+  }
+}

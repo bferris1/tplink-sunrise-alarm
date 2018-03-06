@@ -7,7 +7,7 @@ let deviceIP = '192.168.0.83';
 let alarms = [];
 
 const defaultOptions = {
-    transitionTime: 30000,
+    transitionTime: 300000,
     colorTemp: 2700,
     brightness: 50
 }

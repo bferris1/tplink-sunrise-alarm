@@ -15,12 +15,12 @@ const defaultOptions = {
 
 let CSRule = new schedule.RecurrenceRule();
 CSRule.hour = 7;
-CSRule.minute = 0;
+CSRule.minute = 10;
 CSRule.dayOfWeek = [1, 3, 5];
 
 let latinRule = new schedule.RecurrenceRule();
 latinRule.hour = 8;
-latinRule.minute = 15;
+latinRule.minute = 30;
 latinRule.dayOfWeek = [2, 4];
 
 schedule.scheduleJob(CSRule, startAlarm);
